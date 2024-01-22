@@ -1,17 +1,19 @@
 footer {
-    background-color: #484848;
-    color: white;
+    background-color: white;
     height: 60px;
     width: 100%;
-    border-top: 1px solid #CCCCCC;
-    text-align: center;
+    bottom: 0;
+    position: fixed;
     display: flex;
-    align-items: center;
     justify-content: center;
+    line-height: 60px;
+    border-top: 1px solid #CCCCCC;
+    /* For alignment take This: */
+    /* text-align: center; */
+    /* line-height: 60px; */
+    /* OR */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
 }
-
-footer p {
-    margin: 0;
-}
-
 
